@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo</title>
+
+<link rel="icon" href="img/Logo.png">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="header-mobile">
+  <img src="img/Logo.png" alt="Logo">
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="catalogo.html" class="ativo">Catálogo</a>
+  </nav>
+
+  <button id="cart-btn" class="cart-modern">
+    <i class="fa fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+  </button>
+</header>
+
+<main>
+
+<div class="filtros-centro filtros-scroll">
+  <button onclick="filtrar('todos')">Todos</button>
+  <button onclick="filtrar('destaque')">Destaques</button>
+  <button onclick="filtrar('destilados')">Destilados</button>
+  <button onclick="filtrar('cerveja')">Cervejas</button>
+  <button onclick="filtrar('vinho')">Vinhos</button>
+  <button onclick="filtrar('zeroalcol')">Zero Álcool</button>
+  <button onclick="filtrar('combos')">Combos</button>
+</div>
+
+<section class="banner">
+  <img src="img/Bannerprincipal.png">
+</section>
+
+<section id="catalogo" class="grid"></section>
+
+</main>
+
+<div id="overlay"></div>
+
+<div id="cart">
+  <div class="cart-header">
+    <h3>Seu Pedido</h3>
+    <button id="close-cart">✖</button>
+  </div>
+
+  <ul id="cart-items"></ul>
+  <h3 id="total">Total: R$ 0</h3>
+
+  <div class="form">
+    <input id="nome" placeholder="Seu nome">
+    <select id="pagamento">
+      <option>Pix</option>
+      <option>Dinheiro</option>
+      <option>Cartão</option>
+    </select>
+    <input id="horario" placeholder="Horário retirada">
+  </div>
+
+  <button class="btn-finalizar" onclick="finalizar()">Finalizar Pedido</button>
+</div>
+
+<footer>
+  <div class="footer-left">© vitindev2026</div>
+
+  <div class="footer-center hide-mobile">
+    Sáb: 10h–00h | Dom: 10:30–17h | Seg: Fechado<br>
+    Ter–Qui: 10h–22h | Sex: 10h–00h
+  </div>
+
+  <div class="footer-right">
+    <a href="https://wa.me/5511943906039"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/emporium.beerhouse/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/emporium.beerhouse/"><i class="fab fa-facebook"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
