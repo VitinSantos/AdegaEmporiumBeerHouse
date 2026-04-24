@@ -6,7 +6,7 @@ const todosProdutos = [
   //Produtos em Destaque//
   {nome:"Jack Daniels", categoria:"destaque", preco:120, img:"img/Whisky/JackTradicional.png"},
   {nome:"Dose de Passport", categoria:"destaque", preco:30, img:"img/Destaque/DosePassport.png"},
-  {nome:"Dose de Red label", categoria:"destaque", preco:35, img:"img/Destaque/Doseredlabel.png"},
+  {nome:"Dose de Red label", categoria:"destaque", preco:35, img:"img/Destaque/DoseRedlabel.png"},
   {nome:"Jack Daniels Fire", categoria:"destaque", preco:135, img:"img/Whisky/JackFire.png"},
   {nome:"Sex On The Beach", categoria:"destaque", preco:20, img:"img/Destaque/Sexonthebeach.png"},
   {nome:"Batida de Morango", categoria:"destaque", preco:20, img:"img/Destaque/BatidadeMorango.png"},
