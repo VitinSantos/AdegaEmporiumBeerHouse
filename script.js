@@ -28,7 +28,7 @@ const todosProdutos = [
 
   // CERVEJA
   {nome:"Heineken", categoria:"cerveja", preco:6, img:"img/Cerveja/Heineken.png"},
-  {nome:"Corona", categoria:"cerveja", preco:8, img:"img/Cerveja/corona.png"},
+  {nome:"Corona", categoria:"cerveja", preco:8, img:"img/Cerveja/Corona.png"},
   {nome:"Budweiser", categoria:"cerveja", preco:6, img:"img/Cerveja/Budweiser.png"},
   {nome:"Skol", categoria:"cerveja", preco:5, img:"img/Cerveja/Skol.png"},
   {nome:"Brahma", categoria:"cerveja", preco:5, img:"img/Cerveja/Brahma.png"},
@@ -40,7 +40,7 @@ const todosProdutos = [
   {nome:"Draft", categoria:"vinho", preco:10, img:"img/Vinho/Draft.png"},
 
   // REFRI
-  {nome:"Coca-Cola", categoria:"zeroalcol", preco:6, img:"img/Refri/CocaCola.png"},
+  {nome:"Coca-Cola", categoria:"zeroalcol", preco:6, img:"img/Refri/Cocacola.png"},
   {nome:"Coca-Cola-Zero", categoria:"zeroalcol", preco:6, img:"img/Refri/CocaCola0.png"},
   {nome:"Guaraná", categoria:"zeroalcol", preco:5, img:"img/Refri/Guarana.png"},
   {nome:"Fanta Uva", categoria:"zeroalcol", preco:5, img:"img/Refri/FantaUva.png"},
@@ -48,7 +48,7 @@ const todosProdutos = [
   //Suco
   {nome:"Dell Valle Lata", categoria:"zeroalcol", preco:5, img:"img/Suco/SucoDelVallelata.png"},
   {nome:"Dell Valle Garrafa", categoria:"zeroalcol", preco:8, img:"img/Suco/SucoDelValleGarrafa.png"},
-  {nome:"Suco Kapo", categoria:"zeroalcol", preco:4, img:"img/Suco/SucoKapo.png"},
+  {nome:"Suco Kapo", categoria:"zeroalcol", preco:4, img:"img/Suco/Sucokapo.png"},
 
   //Licor
   {nome:"Licor Baianinha", categoria:"destilados", preco:15, img:"img/Licor/LicorBaianinha.png"},
