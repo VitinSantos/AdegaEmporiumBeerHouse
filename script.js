@@ -48,7 +48,7 @@ const todosProdutos = [
   //Suco
   {nome:"Dell Valle Lata", categoria:"zeroalcol", preco:5, img:"img/Suco/SucoDelVallelata.png"},
   {nome:"Dell Valle Garrafa", categoria:"zeroalcol", preco:8, img:"img/Suco/SucoDelValleGarrafa.png"},
-  {nome:"Suco Kapo", categoria:"zeroalcol", preco:4, img:"img/Suco/Sucokapo.png"},
+  {nome:"Suco Kapo", categoria:"zeroalcol", preco:4, img:"img/Suco/SucoKapo.png"},
 
   //Licor
   {nome:"Licor Baianinha", categoria:"destilados", preco:15, img:"img/Licor/LicorBaianinha.png"},
