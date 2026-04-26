@@ -15,7 +15,7 @@ const todosProdutos = [
 
   // WHISKY
   {nome:"Jack Daniels", categoria:"destilados", preco:120, img:"img/Whisky/JackTradicional.png"},
-  {nome:"Jack Daniels Honey", categoria:"destiladosy", preco:130, img:"img/Whisky/JackHoney.png"},
+  {nome:"Jack Daniels Honey", categoria:"destilados", preco:130, img:"img/Whisky/JackHoney.png"},
   {nome:"Jack Daniels Apple", categoria:"destilados", preco:135, img:"img/Whisky/JackApple.png"},
   {nome:"Jack Daniels Fire", categoria:"destilados", preco:135, img:"img/Whisky/JackFire.png"},
   {nome:"Red Label", categoria:"destilados", preco:90, img:"img/Whisky/RedLabelGarrafa.png"},
